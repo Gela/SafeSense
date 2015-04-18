@@ -10,15 +10,15 @@ public class lib {
     int currentSpeed;
     int speed;
 
-    private int speedCalculator(){
+    /*private int speedCalculator(){
         location.getSpeed();
-    }
+    }*/
     public int getCurrentSpeed() {
         //returns the current speed infinitely
         return currentSpeed;
     }
 
-    public int setCurrentSpeed(int currentSpeed) {
+    public void setCurrentSpeed(int currentSpeed) {
         //sets the current speed
         speed = currentSpeed;
     }
